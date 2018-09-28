@@ -1,8 +1,8 @@
 class CreateEventCategories < ActiveRecord::Migration[5.2]
   def change
     create_table :event_categories do |t|
-      t.integral :event_id
-      t.integral :category_id
+      t.integer :event_id
+      t.integer :category_id
 
       t.timestamps
     end
