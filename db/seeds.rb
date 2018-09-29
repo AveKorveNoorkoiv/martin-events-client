@@ -99,3 +99,4 @@ Event.create({
    category: Category.where(name: "Näitus").first
 })
 
+User.create({email: 'ave.korve-noorkoiv@khk.ee', password: ‘123123’}).confirm
