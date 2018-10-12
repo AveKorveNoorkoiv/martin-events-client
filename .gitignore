@@ -30,5 +30,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-secret1.env
-/config/master.keyback
+secrets.env
