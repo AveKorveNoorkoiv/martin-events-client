@@ -48,7 +48,7 @@ rake db:seed
 ```
 Make an enviroment file:
 ```
-create secret.env
+secret.env
 ```
 Add the following and replace with your API keys:
 ```
