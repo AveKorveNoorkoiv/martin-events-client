@@ -48,7 +48,7 @@ rake db:seed
 ```
 Make an enviroment file:
 ```
-secret.env
+create secret.env
 ```
 Add the following and replace with your API keys:
 ```
@@ -58,7 +58,7 @@ export RECAPTCHA_SECRET_KEY='YOUR RECAPTCHA SECRETKEY'
 ```
 Running the enviroment file
 ```
-source secret.env
+secret.env
 ```
 Starting rails server to see your result in a browser:
 ```
