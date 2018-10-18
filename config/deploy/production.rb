@@ -1,6 +1,6 @@
 server "vso17.cariba.ee",
 	user: "ave",
-	roles: %w{app web}
+	roles: %w{app db web}
 
 
 # server-based syntax
