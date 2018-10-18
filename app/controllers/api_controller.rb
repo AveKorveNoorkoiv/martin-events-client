@@ -12,7 +12,7 @@ skip_before_action:verify_authenticity_token
   end
 
   def haiku
-  	render json: {haiku:reverse(haiku_params[:haiku]) }
+  	render json: {haiku:reverse(haiku_params[:haiku]), name: haiku_params[:name].upcase }
   	
   end
 
@@ -24,6 +24,7 @@ skip_before_action:verify_authenticity_token
    	params.permit(:name, :haiku)
 
    end
+
 
 
 end
